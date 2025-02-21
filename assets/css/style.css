@@ -12,6 +12,10 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: 'Josefin Slab', serif;
+    --primary-color: #fed4cd;
+    --secondary-color: #bfe7ee;
+    --highlight-color: ;
+    --highlight-color-light: ;
 }
 
 /* Global Styles */
@@ -27,6 +31,12 @@ h1, h2 {
 /*Buttons */
 
 /* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+    /* To create a shadow effect on the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 /* Forms */
 
