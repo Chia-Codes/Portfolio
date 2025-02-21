@@ -20,7 +20,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Josefin Slab', serif;
 }
 
@@ -41,16 +41,6 @@ h1 {
 /* grid visualisation CSS for testing */
 
 
-
-/*.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 
 
