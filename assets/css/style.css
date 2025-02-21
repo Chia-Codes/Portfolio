@@ -13,7 +13,7 @@
     --primary-font: "Poppins", sans-serif;
     --secondary-font: 'Josefin Slab', serif;
     --primary-color: #fed4cd;
-    --secondary-color: #bfe7ee;
+    --secondary-color: #5cb5c5;
     --highlight-color: ;
     --highlight-color-light: ;
 }
@@ -22,10 +22,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
 }
 
 h1, h2 {
     font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+    /* to create space between above content */
+    padding-top: 30px;
 }
 
 /*Buttons */
@@ -38,21 +44,19 @@ h1, h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* grid visualisation CSS for testing */
-
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-
 /* Forms */
 
 /* Header */
+
+.hero {
+    background-color: var(--primary-color);
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
 
 /* Main */
 
@@ -62,9 +66,15 @@ h1, h2 {
 
 /* grid visualisation CSS for testing */
 
+/*.container,
+.row {
+    border: 2px solid black;
+}
 
-
-
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}*/
 
 /* Media Queries */
 /* Small devices (landscape phones, 576px and up) */
