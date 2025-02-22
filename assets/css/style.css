@@ -31,13 +31,15 @@ h1, h2 {
 
 h1 {
     /* to create space between above content */
-    padding-top: 30px;
+    padding-top: 2rem;
 }
 
 p {
     font-family: 'Maven Pro', sans-serif;
     font-size: 1.1rem;
-    margin-top: 20px;
+    /* creates space between paragraphs */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*Buttons */
