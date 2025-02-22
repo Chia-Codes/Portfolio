@@ -25,11 +25,11 @@ body {
     background-color: var(--primary-color);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Josefin Slab', serif;
 }
 
-h1 {
+h1, h3 {
     /* to create space between above content */
     padding-top: 2rem;
 }
