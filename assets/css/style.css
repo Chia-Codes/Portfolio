@@ -12,8 +12,8 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: 'Josefin Slab', serif;
-    --primary-color: #fed4cd;
-    --secondary-color: #5cb5c5;
+    --primary-color: #fed4cd; /* Pastel pink */
+    --secondary-color: #468590; /* Teal */
     --highlight-color: ;
     --highlight-color-light: ;
 }
@@ -40,6 +40,12 @@ p {
     /* creates space between paragraphs */
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+/* Links */
+
+.links {
+    color: var(--secondary-color);
 }
 
 /*Buttons */
