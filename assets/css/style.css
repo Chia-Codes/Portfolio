@@ -50,6 +50,19 @@ p {
 
 /*Buttons */
 
+.block {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.btn-highlight {
+    background-color: var(--secondary-color);
+    color: white;
+    /* shadow effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* Navbar */
 
 #navbar {
