@@ -37,8 +37,6 @@ h1 {
 p {
     font-family: 'Maven Pro', sans-serif;
     font-size: 1.1rem;
-    padding-left: 30px;
-    padding-right: 30px;
     margin-top: 20px;
 }
 
@@ -59,9 +57,25 @@ p {
 
 /* Main */
 
+/* About */
+
+/* Skills  Cards */
+.image-container {
+    width: 100%;
+    height: 200px; /* Set desired height */
+    overflow: hidden; /* Prevents overflow */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Adds padding to the top and bottom of the sectionS */
 .section {
-    padding: 60px 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 /* Portfolio Cards */
@@ -73,6 +87,7 @@ p {
 /* .container,
 .row {
     border: 2px solid black;
+    padding-bottom: 10px;
 }
 
 .col-12 {
