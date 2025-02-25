@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sanchia Marie  |  Software Developer</title>
@@ -61,39 +61,37 @@
 
   <!--Send Message Section-->
   <main>
-    <section id="message-form" class="container section">
-        <div class="col-8 mx-auto">
-          <!--mb-5 to give space between heading and form-->
-          <h1 class="text-center mb-5">Send a Message</h1>
-          <form method="get" target="_blank" action="https://formdump.codeinstitute.net/">
-            <input type="test" name="getdata">
-            <div class="row mb-3">
-              <div class="col">
-                <label for="fname" class="form-label">First Name</label>
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <section id="form" class="w3-container mx-auto">
+      <form action="https://formsubmit.co/sanchmsw@gmail.com" method="POST" id="send-message-form">
+      <h2 class="text-center"><i class="fa-solid fa-message"></i>  Send me a message!</h2>
+      <div class="col-4 mx-auto text-center">
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname" class="form-text" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" id="lname" class="form-text" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address" id="email" class="form-text" required>
+            <!--Radio Buttons-->
+            <!--gap-4 To spcae out ardio buttons-->
+            <div class="radio-buttons d-flex gap-4 justify-content-around">
+                  <label for="employer" class="radio-label">I am an employer?</label>
+                  <input type="radio" name="user" id="road" value="employer" required>
+                  <label for="client">I am a Client?</label>
+                  <input type="radio" name="user" id="client-message" value="client" required>
               </div>
-              <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-              </div>
-            </div>
             <div class="mb-4">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <textarea class="form-control" id="send-message" rows="9" placeholder="Type your message here"></textarea>
             </div>
-            <div class="mb-5">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
-            </div>
-            <!--mx-auto to center button-->
             <div class="col-4 mx-auto">
-              <button type="submit" class="btn-highlight block" data-bs-toggle="modal">Send</button>
+              <button type="submit" class="block btn-highlight">Send!</button>
             </div>
           </div>
         </form>
-      </div>
     </section>
-  </main>
+</main>
+
+  
+  
   <!--Socail Links-->
   <!--Footer-->
   <footer class="mt-auto">

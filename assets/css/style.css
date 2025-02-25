@@ -14,7 +14,7 @@
     --secondary-font: 'Josefin Slab', serif;
     --primary-color: #fed4cd; /* Pastel pink */
     --secondary-color: #468590; /* Teal */
-    --highlight-color: ;
+    --highlight-color: #98c5c0;
     --highlight-color-light: ;
 }
 
@@ -27,11 +27,10 @@ body {
 
 h1, h2, h3 {
     font-family: 'Josefin Slab', serif;
-}
-
-h1, h3 {
+    
     /* to create space between above content */
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 p {
@@ -54,6 +53,8 @@ p {
     width: 100%;
     padding: 5px 10px;
     border-radius: 20px;
+    margin: 30px 0;
+    
 }
 
 .btn-highlight {
@@ -76,6 +77,7 @@ p {
 
 /* Main */
 
+
 /* About */
 
 /* Skills  Cards */
@@ -97,7 +99,34 @@ p {
     padding-bottom: 50px;
 }
 
-/* Portfolio Cards */
+/* Form */
+
+#send-message {
+    padding: 10px 5% 5% 10%;
+    border-radius: 10px;
+}
+.form-text {
+    width: 100%;
+    height: 25px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.w3-container {
+    background-color: var(--highlight-color);
+    padding: 25px 0;
+}
+
+::placeholder {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.radio-buttons {
+    padding: 30px;
+}
 
 /* Footer */
 
