@@ -13,8 +13,8 @@
     --primary-font: "Poppins", sans-serif;
     --secondary-font: 'Josefin Slab', serif;
     --primary-color: #fed4cd; /* Pastel pink */
-    --secondary-color: #468590; /* Teal */
-    --highlight-color: #98c5c0;
+    --secondary-color: #43a49f;
+    --highlight-color: #98b9b8;
     --highlight-color-light: ;
 }
 
@@ -50,18 +50,36 @@ p {
 /*Buttons */
 
 .block {
-    width: 100%;
+    width: 90%;
     padding: 5px 10px;
     border-radius: 20px;
     margin: 30px 0;
+    font-weight: 400;
+    border: none;
+    
+    /* shadow effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     
 }
 
 .btn-highlight {
+    background-color: var(--highlight-color);
+}
+
+
+.btn-1:hover {
     background-color: var(--secondary-color);
     color: white;
-    /* shadow effect */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-2 {
+background-color: var(--secondary-color);
+color: white;
+}
+
+.btn-2:hover {
+    background-color: var(--primary-color);
+    color: black;
 }
 
 /* Navbar */
@@ -72,6 +90,12 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: 50px;
 } 
+
+.nav-item {
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 25px;
+}
 
 /* Header */
 
@@ -163,9 +187,28 @@ p {
 /* Small devices (landscape phones, 576px and up) */
 
 /* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* To stop buttons from expanding across screen */
+    .btn-1 {
+        width: 45%;
+    }
+
+    .btn-2 {
+        width: 90%;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 922px) {
+    /* To stop buttons from expanding across screen */
+    .btn-1 {
+        width: 30%;
+    }
 
+    .btn-2 {
+        width: 50%;
+    }
+}
 /* Extra large devices (large desktops, 1200px and up) */
 
 /* exra extra large devices (large desktops, 1400px and up) */
