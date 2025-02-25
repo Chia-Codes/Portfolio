@@ -82,6 +82,10 @@ color: white;
     color: black;
 }
 
+.btn-3:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
 /* Navbar */
 
 #navbar {
