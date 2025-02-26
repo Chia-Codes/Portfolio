@@ -60,15 +60,15 @@
   </nav>
 
   <!--Header-->
-<header class="W3-container section">
-    <section class="row">
+<header class="w3-container section">
+    <section id="header" class="row">
         <!-- Used to center text in column-->
         <div class="col-12 text-center">
             <!--my-4 to give space around heading-->
             <h1 class="display-3"><strong>Sanchia Marie</strong></h1>
             <h2 class="display-5">Software Developer</h2>
             <!--mb-5 to give space around sub heading-->
-            <p class="intro mb-5">
+              <p class="intro mb-5">
               Since starting a Full Stack (level 5) Diploma, I have
               spent my time working to improve my web development skills.
               Being and organised active leaner, I have become proficent 
@@ -81,56 +81,73 @@
               and implement a wide range of expertises gained through my
               employment history, including communication, time managment,
               inter personal skills and more!
-            </p>
+              </p>
             
-                <!--Col to adjust button on small and large screens-->
-            <div class="col-9 mx-auto">
+            <!--Col to adjust button on small and large screens-->
+              <div class="col-9 mx-auto">
                 <button class="block btn-highlight btn-1" type="submit" 
-                onclick="location.href='send-message.html'" target="_blank">
-                  Send me a message!</button>
+                  onclick="location.href='send-message.html'" target="_blank">
+                  Send me a message!
+                </button>
             </div>
         </div>
     </section>
 </header>
 
-<!-- main content -->
-<main>
+<!-- Main content -->
+<main id="about">
     <!-- About section links to #about href in navbar -->
-    <section id="about" class="container section">
-        <div class="row">
+    <section class="container section">
+        <div class="row text-center">
              <!-- my-4 to add top and bottom margin to heading -->
-             <div class="col-12 text-center my-4">
-                <h2 class="display-5">About Me</h2>
+             <div class="text-center my-4">
+                <h2 class="display-5"><strong>Get to know me!</strong></h2>
              </div>
-             
-            <!-- my-4 used to add margin under image -->
-            <div class="col-12 col-md-6 mb-4">
+
+            <div class="col-12 col-lg-6 mb-5">
                 <!-- img-fluid class makes the image responsive to its container -->
-                <img src="assets\images\girl-at-laptop.webp" class="img-fluid" alt="Girl sitting at a desk on her laptop, with a notepad and coffee">
+                 <!-- mb-4 push down content under image -->
+                <img src="assets\images\girl-at-laptop.webp" class="img-fluid" id="img" 
+                alt="Girl sitting at a desk on her laptop, with a notepad and coffee">
             </div>
             <!--col-md-6 to push paragraph to right on larger screens-->
-            <div class="col-12 col-md-6 mb-4">
-                    <p> I am punctual, motivated, and strongly
+            <div class="col-12 col-lg-6 mx-auto">
+              <!--mt-5 to get text inline with img-->
+                    <p class="mb-5 mt-lg-5"> I am punctual, motivated, and strongly
                         committed to inspiring those around me. I
                         am keen to create a positive impact on my
                         teams and the broader community.
+                        Already being a qualifed personal trainer, I look forward
+                        to intergating the digital world with fitness. 
+                        To build platforms people can reside to 
+                        for wellness and holistic benefits. 
+                        Creatiting an informative and interractive online
+                        experience for all users.
                     </p>
                 </div>
-            <div class="mb-4">
-                <p>This rich background has enhanced my
+                <div class="col-12 col-lg-6">
+                  <!-- img-fluid class makes the image responsive to its container -->
+                   <!-- mb-4 push down content under image -->
+                  <img src="assets\images\girl-at-laptop-from-behind.webp" class="img-fluid" id="img" 
+                  alt="Girl sitting at a desk on her laptop, with a notepad and coffee">
+              </div>
+             <!--col-md-6 to push paragraph to right on larger screens-->
+             <div class="col-12 col-lg-6 mx-auto">
+              <!--mt-5 to get text inline with img-->
+                    <p class="mt-5"> My rich background has enhanced my
                 adaptability and fueled my passion for
                 contributing empathetically and confidently
                 to new environments, teams, and projects. I
                 am eager to share my skills and experiences
                 to foster a collaborative atmosphere, drive
                 team success, and help achieve
-                organizational objectives in a new working
-                environment
+                organizational objectives in any new working
+                environment.
                 </p>
             </div>
         </div>
     </section>
-<hr>
+
     <!--Skill card section-->
     <section id="skills" class="container section">
         <div class="col-12 text-center">
