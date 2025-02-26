@@ -157,6 +157,25 @@ header {
     padding-bottom: 100px;
 }
 
+/* Portfolio */
+
+#project-img {
+    border-radius: 20%;
+    /* Shadow to tie in with the rest of the content */
+    padding: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.projects {
+    /* Give space between images */
+    padding: 80px;
+}
+
 /* Form */
 
 #send-message {
@@ -175,8 +194,11 @@ header {
 .form-control {
     border: solid 1px var(--secondary-color);
 }
+
 .w3-container {
     background-color: var(--highlight-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 ::placeholder {
@@ -186,6 +208,11 @@ header {
 
 .radio-buttons {
     padding: 30px;
+}
+
+#form {
+    padding-top: 25px;
+    padding-bottom: 180px;
 }
 
 /* Footer */
@@ -237,12 +264,20 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* To stop buttons from expanding across screen */
+    /* Buttons */
     .btn-1 {
         width: 45%;
     }
 
     .btn-2 {
         width: 90%;
+    }
+
+    /* Portfolio */
+    /* Position img with text on portfolio */ 
+
+    #project-img {
+    margin-top: 30px;
     }
 }
 
