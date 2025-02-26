@@ -23,6 +23,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
+    
+    font-weight: 500;
 }
 
 h1, h2, h3 {
@@ -90,15 +92,14 @@ color: white;
 
 #navbar {
     background-color: var(--primary-color);
-    /* To create a shadow effect on the navbar */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     /* shadow effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     height: 50px;
 } 
 
 .nav-item {
     background-color: var(--primary-color);
     text-align: center;
-    border-radius: 25px;
 }
 
 /* Header */
