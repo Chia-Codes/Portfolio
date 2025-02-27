@@ -98,6 +98,11 @@ color: white;
     text-align: center;
 }
 
+.audio {
+        width: 100px;
+        height: 50px;
+}
+
 /* Header */
 
 header {
