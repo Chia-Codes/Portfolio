@@ -30,35 +30,36 @@
 <!--'flex's work in conjuction with mt-auton on footer to push footer to the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
     
-    <!--Navigation-->
-    <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">S.M</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<!--Navigation-->
+<nav id="navbar" class="navbar sticky-top navbar-expand-sm">
+  <div class="container d-flex">
+    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span class="sr-only">Retun to home page</span></i></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!-- success message for users who successfully submit a form -->
     <main id="success" class="container section text-center">
@@ -68,7 +69,7 @@
                 <p class="lead">Your message has been sent!</p>
                 <div class="col-9 col-lg-4 mx-auto">
                     <button class="block btn-highlight btn-3" type="submit" 
-                    onclick="location.href='index.html'" target="_blank">
+                    onclick="location.href='index.html'">
                       Return to Home Page</button>
                 </div>
             </div>

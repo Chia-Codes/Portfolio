@@ -31,33 +31,34 @@
     
 <!--Navigation-->
 <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">S.M</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <div class="container d-flex">
+    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span class="sr-only">Retun to home page</span></i></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!--Send Message Section-->
   <main>
@@ -80,7 +81,7 @@
                   <input type="radio" name="user" id="client" value="client" required>
               </div>
             <div class="mb-4">
-              <textarea class="form-control" id="send-message" rows="9" placeholder="Type your message here"></textarea>
+              <textarea class="form-control" id="send-message" rows="9" placeholder="Type your message here" required></textarea>
             </div>
             <div class="col-4 mx-auto">
               <button type="submit" class="block btn-highlight btn-2">Send!</button>

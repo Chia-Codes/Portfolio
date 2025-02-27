@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sanchia Marie  |  Software Developer</title>
@@ -30,7 +30,7 @@
 <!--Navigation-->
 <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
     <div class="container d-flex">
-      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span>Retun to home page</span></i></a>
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span class="sr-only">Retun to home page</span></i></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,15 +85,16 @@
               <!--Col to adjust button on small and large screens-->
               <div class="col-9 mx-auto">
                 <button class="block btn-highlight btn-1" type="submit" 
-                  onclick="location.href='send-message.html'" target="_blank">
+                  onclick="location.href='send-message.html'">
                   Send me a message!
                 </button>
             </div>
             <!--Auido royalty free sample from Pixabay-->
         <div class="mt-5 mx-auto">
-          <audio controls mute>
-            <source src="crystal-logo-21091.mp3">
+          <audio controls muted>
+            <source src="../assets/media/crystal-logo-21091.mp3">
           </audio>
+          <span class="sr-only">Short 6 second burst of ambient sound for home page</span>
           <p>
             Sound Effect by 
             <a href="https://pixabay.com/users/sergequadrado-24990007/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=21091">
@@ -119,7 +120,7 @@
             <div class="col-12 col-lg-6 mb-5">
                 <!-- img-fluid class makes the image responsive to its container -->
                  <!-- mb-4 push down content under image -->
-                <img src="assets\images\girl-at-laptop.webp" class="img-fluid" id="img" 
+                <img src="../assets/images/girl-at-laptop.webp" class="img img-fluid" id="photo" 
                 alt="Girl sitting at a desk on her laptop, with a notepad and coffee">
             </div>
             <!--col-md-6 to push paragraph to right on larger screens-->
@@ -133,14 +134,14 @@
                         to intergating the digital world with fitness. 
                         To build platforms people can reside to 
                         for wellness and holistic benefits. 
-                        Creatiting an informative and interractive online
+                        Creating an informative and interractive online
                         experience for all users.
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
                   <!-- img-fluid class makes the image responsive to its container -->
                    <!-- mb-4 push down content under image -->
-                  <img src="assets\images\girl-at-laptop-from-behind.webp" class="img-fluid" id="img" 
+                  <img src="../assets/images/girl-at-laptop-from-behind.webp" class="img img-fluid"
                   alt="Girl sitting at a desk on her laptop, with a notepad and coffee">
               </div>
              <!--col-md-6 to push paragraph to right on larger screens-->
@@ -172,12 +173,14 @@
             <div class="col">
               <div class="card h-100">
                 <div class="image-container image-container-img">
-                <img src="assets/images/crititcal-thinker.webp" class="card-img-top img-fluid" alt="Image of a bain filled with working cogs">
+                <img src="../assets/images/crititcal-thinker.webp" class="card-img-top img-fluid" 
+                alt="Brain filled with working cogs">
             </div>
             <div class="card-body">
-                  <h5 class="card-title"><u>Crititcal Thinker</u></h5>
-                  <p class="card-text">
+                  <h5 class="card-title">Crititcal Thinker</h5>
+                  <hr>
                     <h6><strong><em>'Not afraid to ask questions!'</em></strong></h6>
+                    <p class="card-text">
                     By analysing and approaching projects with a 
                     logical mindset, I work to find the most apropriate 
                     solutions to any problem.<br>
@@ -185,18 +188,20 @@
                     potential problems and implement well-thought-out descisions.<br>
                     I will ask questions to learn more and take on my own continous
                     personal development to keep up to date with relevant methods
-                    and programs.</p>
+                    and programs.
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
                 <div class="image-container image-container-img">
-                <img src="assets\images\data-structure.webp" class="card-img-top" alt="...">
+                <img src="../assets/images/data-structure.webp" class="card-img-top" alt="Computer circuit">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title"><u>Structure & Organisation</u></h5>
+                  <h5 class="card-title">Structure & Organisation</h5>
                   <h6><strong><em>'Everything has a place!'</em></strong></h6>
+                  <hr>
                   <p class="card-text">
                     Being no stranger to OCD, throughout my life I have 
                     always taken a clear systematic approach to gain clarity
@@ -211,10 +216,11 @@
             <div class="col">
               <div class="card h-100">
                 <div class="image-container image-container-img">
-                <img src="assets\images\motivation.webp" class="card-img-top" alt="...">
+                <img src="../assets/images/motivation.webp" class="card-img-top" alt="Collage of and arrow, a light bulb and two people aching up.">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title"><u>Motivation</u></h5>
+                  <h5 class="card-title">Motivation</h5>
+                  <hr>
                   <h6><strong><em>'If there's a will, there's a way!'</em></strong></h6>
                   <p class="card-text">
                     To be a personal trainer you must be vigilant at finding the 
@@ -231,11 +237,12 @@
             <div class="col">
               <div class="card h-100">
                 <div class="image-container image-container-img">
-                <img src="assets\images\problem-solver.webp" class="card-img-top" alt="...">
+                <img src="../assets/images/problem-solver.webp" class="card-img-top" alt="Think bulbs of people connected by a spider-gram.">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title"><u>Problem Solving</u></h5>
+                  <h5 class="card-title">Problem Solving</h5>
                   <h6><strong><em>'I love chess!'</em></strong></h6>
+                  <hr>
                   <p class="card-text">
                     Throughout my life I have utilised practical thinking and
                     solving games like chess. This has helped me break down 
@@ -249,10 +256,11 @@
             <div class="col">
                 <div class="card h-100">
                     <div class="image-container image-container-img">
-                  <img src="assets\images\Programing-logos.webp" class="card-img-top" alt="...">
+                  <img src="../assets/images/Programing-logos.webp" class="card-img-top" alt="Mulitple programing language logos">
                     </div>
                   <div class="card-body">
-                    <h5 class="card-title"><u>Programing Languaes</u></h5>
+                    <h5 class="card-title">Programing Languaes</h5>
+                    <hr>
                     <h6><strong><em>'Lets be bilingual'</em></strong></h6>
                     <p class="card-text">
                       Being able to adapt to any working environment, I have quickly 
@@ -270,10 +278,11 @@
               <div class="col">
                 <div class="card h-100">
                     <div class="image-container image-container-img">
-                  <img src="assets\images\time-management.webp" class="card-img-top" alt="...">
+                  <img src="../assets/images/time-management.webp" class="card-img-top" alt="A clock, calender and task note pad places together">
                     </div>
                   <div class="card-body">
-                    <h5 class="card-title"><u>Time Management</u></h5>
+                    <h5 class="card-title">Time Management</h5>
+                    <hr>
                     <h6><strong><em>'Never Late!'</em></strong></h6>
                     <p class="card-text">
                       I am a promoter of efficiency and productivity, in my mind
@@ -287,7 +296,8 @@
                 </div>
               </div>
           </div>
-    </section>
+      </section>
+    </main>
 
     <!--Contact section-->
     <!--mt auto to ensure footer stays at the bottom-->
@@ -330,9 +340,11 @@
       
       <!--Map-->
       <section id="map" class="w3-container">
+        <h2>Based in London, UK</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1740227334590!5m2!1sen!2suk" 
-        width="100%" height="200" style="border:0;"
+        width="100" height="200" style="border:0;"
         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <span class="sr-only">Map showing London, England and its surroundings.</span>
       </section>
 
     <ul id="social-networks">

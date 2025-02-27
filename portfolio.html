@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sanchia Marie  |  Software Developer</title>
@@ -31,8 +31,9 @@
     
 <!--Navigation-->
 <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">S.M</a>
+    <div class="container d-flex">
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span class="sr-only">Retun to home page</span></i></a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#about">About</a>
@@ -49,7 +50,7 @@
             <a class="nav-link" href="index.html#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#contact">Contact</a>
@@ -75,24 +76,25 @@
         <!-- Project 1-->
         <div class="row d-flex justify-content-between">
             <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot love running project html code.webp" id="project-img" class="w-100" alt="Screen shot of love-running project">
+                <img src="../assets/images/screenshot-love-running-project-html-code.webp" class="project-img w-100" alt="Screen shot of love-running project">
             </div>
             <div class="col-lg-4 col-sm-12 text-center">
-                <h2><u><strong>Love-Running</strong></u></h2>
+                <h2><strong>Love-Running</strong></h2>
+                <hr>
                 <p>Love running, is the first project i worked,
                   showcasing an informative modern wevsite, where you 
                   are able to inquire and signup to events.<br>
                 <a href="https://chia-codes.github.io/Love-Running/" 
-                alt="Link to Github deployment of 'Love Running' project (opens in a new tab)" 
-                target="_blank"><u>Love Running Deployment</u></a>
+                aria-label="Link to Github deployment of 'Love Running' project (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Love Running Deployment</u></a>
                 <br>
                 <a href="https://github.com/Chia-Codes/Love-Running" 
-                alt="Link to 'Love Running' Github repositoy (opens in a new tab)" 
-                target="_blank" ><u>Love Running Github repository</u></a>
+                aria-label="Link to 'Love Running' Github repositoy (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Love Running Github repository</u></a>
               </p>
             </div>
             <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot love running html code.webp"  id="project-img" class="w-100" alt="Screen shot of html code">
+                <img src="../assets/images/screenshot-love-running-html-code.webp" class="project-img w-100" alt="Screen shot of html code">
             </div>
         </div>
     </section>
@@ -100,26 +102,27 @@
         <!-- Project 2-->
         <div class="row d-flex justify-content-between">
             <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot boardwalk games project.webp"  id="project-img" class="w-100" alt="Screen shot image of Boardwalk-games project">
+                <img src="../assets/images/screenshot-boardwalk-games-project.webp" class="project-img w-100" alt="Screen shot image of Boardwalk-games project">
             </div>
             <div class="col-lg-4 col-sm-12 text-center">
-                <h3><u><strong>Boardwalk-games</strong></u></h3>
+                <h3><strong>Boardwalk-games</strong></h3>
+                <hr>
                 <p>Boardwalk-games is an interactive website
                   allowing you to book, browse, and reserve games. 
                   It includes a bootsrap modal to promt confirmation
                   and understanding with the user. <br>
                   <a href="https://chia-codes.github.io/boardwalk-games/" 
-                alt="Link to Github deployment of 'Boardwalk-games' project (opens in a new tab)" 
-                target="_blank"><u>Boardwalk-games Deployment</u></a>
+                aria-label ="Link to Github deployment of 'Boardwalk-games' project (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Boardwalk-games Deployment</u></a>
                 <br>
                 <a href="https://github.com/Chia-Codes/boardwalk-games" 
-                alt="Link to 'Boardwalk-games' Github repositoy (opens in a new tab)" 
-                target="_blank" ><u>Boardwalk-games Github repository</u></a>
+                aria-label="Link to 'Boardwalk-games' Github repositoy (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Boardwalk-games Github repository</u></a>
               </p>
             </div>
         
             <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot boardwalk games html code.webp"  id="project-img" class="w-100" alt="Screen shot image of html code for Boardwalk-games porject">
+                <img src="../assets/images/screenshot-boardwalk-games-html-code.webp" class="project-img w-100" alt="Screen shot image of html code for Boardwalk-games porject">
             </div>
         </div>
     </section>
@@ -127,27 +130,28 @@
         <!-- Project 3-->
         <div class="row d-flex justify-content-between">
           <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot mei wong portfolio.webp"  id="project-img" class="w-100" alt="Screen shot Mei Wong portfolio project">
+                <img src="../assets/images/screenshot-mei-wong-portfolio.webp" class="project-img w-100" alt="Screen shot Mei Wong portfolio project">
             </div>
         
             <div class="col-lg-4 col-sm-12 text-center">
-                <h3><u><strong>Mei Wong's Portfolio</u></strong></h3>
+                <h3><strong>Mei Wong's Portfolio</strong></h3>
+                <hr>
                 <p>Mei Wong's portfolio is designed to be discriptive 
                   and informative. With a professional look, this porject
                   idea aimed to advice potential clients of Mei wong's 
                   work history and contact details.<br>
                   <a href="https://chia-codes.github.io/Mei-wong-portfolio/" 
-                alt="Link to Github deployment of 'Mei Wong's portfolio' project (opens in a new tab)" 
-                target="_blank"><u>Mei Wong Portfolio Deployment</u></a>
+                aria-label="Link to Github deployment of 'Mei Wong's portfolio' project (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Mei Wong Portfolio Deployment</u></a>
                 <br>
                 <a href="https://github.com/Chia-Codes/Mei-wong-portfolio" 
-                alt="Link to 'Mei Wong Portfolio' Github repositoy (opens in a new tab)" 
-                target="_blank" ><u>Mei Wong Github repository</u></a>
+                aria-label="Link to 'Mei Wong Portfolio' Github repositoy (opens in a new tab)" 
+                target="_blank" class="portfolio-links"><u>Mei Wong Github repository</u></a>
               </p>
             </div>
         
             <div class="col-12 col-lg-4">
-                <img src="assets\images\screenshot of mei wong portfolio html code.webp"  id="project-img" class="w-100" alt="Screen shot of html code for Mei Wong portfolio project">
+                <img src="../assets/images/screenshot-of-mei-wong-portfolio-html-code.webp" class="project-img w-100" alt="Screen shot of html code for Mei Wong portfolio project">
             </div>
         </div>
     </section>
@@ -193,8 +197,9 @@
   
   <!--Map-->
   <section id="map" class="w3-container">
+    <h2>Based in London, UK</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1740227334590!5m2!1sen!2suk" 
-    width="100%" height="200" style="border:0;"
+    width="100" height="200" style="border:0;"
     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
