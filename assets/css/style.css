@@ -13,9 +13,9 @@
     --primary-font: "Poppins", sans-serif;
     --secondary-font: 'Josefin Slab', serif;
     --primary-color: #fed4cd; /* Pastel pink */
-    --secondary-color: #000000;
-    --highlight-color: #98b9b8;
-    --highlight-color-light: ;
+    --secondary-color: #000000; /* Black */
+    --highlight-color: #98b9b8; /* Pastel Blue */
+    --highlight-color-dark: #3b626c ;
 }
 
 /* Global Styles */
@@ -89,6 +89,19 @@ color: white;
     background-color: var(--secondary-color);
     color: white;
 }
+
+/* a hyperinks */
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--highlight-color-dark);
+}
+
 /* Navbar */
 
 #navbar {
@@ -233,18 +246,6 @@ header {
 /* Footer */
 
 /* Contact Information */
-
-/* a hyperinks */
-
-a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: var(--highlight-color);
-}
 
 /* Social Network links */
 
