@@ -45,7 +45,10 @@ h1 {
     text-decoration-thickness: 0.2rem;
 }
 
-
+h6 {
+    font-weight: bold;
+    font-style: italic;
+}
 
 /*Buttons */
 
