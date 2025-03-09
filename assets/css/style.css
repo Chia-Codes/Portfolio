@@ -120,7 +120,7 @@ a:hover {
 header {
     /* Header Img */
     background: none;
-    background: url("../images/header-img.webp") no-repeat center/cover ;
+    background: url("../images/header-img-sm.webp") no-repeat center/cover;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -279,10 +279,11 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
 /* Media Queries */
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     img {
         width: 70%;
     }    
+
 }
 
 /* Medium devices (tablets, 768px and up) */
