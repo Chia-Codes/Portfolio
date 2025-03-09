@@ -121,7 +121,6 @@ header {
     /* Header Img */
     background: none;
     background: url("../images/header-img.webp") no-repeat center/cover;
-    height: 100vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
@@ -144,6 +143,8 @@ header {
 
 .img {
     border-radius: 50%;
+    width: auto;
+    height: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     width: 70%;
 }
