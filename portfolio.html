@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sanchia Marie  |  Software Developer</title>
+
+    <!--Preload header image to increase performance-->
+    <link rel="preload" href="assets/images/computer-book-img.jpg" as="image">
+
+    <!--Preload & connect for google fonts to increase performance load time-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!--Favicons genrated by favicon.ico-->
     <link rel="icon" href="assets/images/favicon/favicon.webp" type="image/x-icon">
@@ -22,17 +29,15 @@
     <!--Custom CSS Link-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!--Font Awesome Icons-->
-    <script src="https://kit.fontawesome.com/018e5f593c.js" crossorigin="anonymous"></script>
 </head>
 
 <!--'flex's work in conjuction with mt-auton on footer to push footer to the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
-    
+
 <!--Navigation-->
 <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
     <div class="container d-flex">
-      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling"><span class="sr-only">Retun to home page</span></i></a>
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-seedling" aria-label="Plant stem with two leaves on the top"><div class="sr-only">Retun to home page</div></i></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
