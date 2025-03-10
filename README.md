@@ -357,13 +357,13 @@ Behaved as expected and opened a Microsoft application on desktop and outlook ap
 - HTML
   - 4 Errors found with wrong tag issues as displayed in image below
 
-![Main Page HTML Validator Results](html-validator-error-test.png) 
+![Main Page HTML Validator Results](docs/testing/html-validator-error-test.png) 
 
 Fix: Remove unnecessary tags. 
 
-![Main Page HTML Validator Results](html-validator-test.png)
+![Main Page HTML Validator Results](docs/testing/html-validator-test.png)
 
-![Potrfolio HTML Validator Results](portfolio-html-validator-test.png)
+![Potrfolio HTML Validator Results](docs/testing/portfolio-html-validator-test.png)
 
 ![Send Message HTML Validator Results](docs/testing/send-message-html-validator-test.png)
 
