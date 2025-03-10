@@ -36,7 +36,7 @@ MOCK UP IMAGES HERE! -------------------------
     * This will contain a skills section, allowing the user to browse through my relevant skill set and how it relates to me. 
 ![About](docs/readme_images/about-me.png) 
 
-![Skills](docs/readme_images/skill.png) 
+![Skills](docs/readme_images/skills.png) 
 
 
 * Contact form
