@@ -132,12 +132,7 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.intro {
-    padding: 40px;
-}
-
 /* Main */
-
 
 /* About */
 
@@ -215,10 +210,6 @@ header {
     border: solid 1px var(--secondary-color);
 }
 
-.form-control {
-    border: solid 1px var(--secondary-color);
-}
-
 .w3-container {
     background-color: var(--highlight-color);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -261,10 +252,6 @@ header {
 
 #social-networks i:hover {
     color: var(--highlight-color)
-}
-
-#map {
-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Media Queries */
