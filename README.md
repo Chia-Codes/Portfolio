@@ -1,4 +1,4 @@
-# Portfolio
+d# Portfolio
 
 My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities.View the live site [here](https://chia-codes.github.io/Portfolio)
 
@@ -49,7 +49,7 @@ MOCK UP IMAGES HERE! -------------------------
     * Successfully submitting the contact form, users will be redirected to success.html displaying a ‘thank you’ message.
     * A radio button is included for clarity of inquiries, stating weather the user is a client or employer. 
 ![Message Form](docs/readme_images/send-message.png) 
-![Message Form Comfirmation](docs/readme_images/succes.png)
+![Message Form Comfirmation](docs/readme_images/send-message.png)
 
 ### Portfolio Page
 * Portfolio
@@ -78,11 +78,9 @@ MOCK UP IMAGES HERE! -------------------------
 Home page
 <br><br>
 
-HOME PAGE WIREFRAME HERE DESKTOP----------
+![Home](docs/readme_images/portfolio-wireframes.bmpr) 
 
-MOBILE HERE ---
 
-TABLET HERE----
 <br><br>
 Send message form successful submission page.
 <br><br>
@@ -178,11 +176,11 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #3: Header Image Was Not Present on Mobile
 - **Problem**: The header background image was taking too long to load, leading to  poor user experience.
-- **Fix**: `preload` in the `<head>` used to load the background image early saving load time.
+- **Fix**: `preload` used to load the background image early saving load time.
 
 #### Issue #4: Fonts Loading Slowly
 - **Problem**: Imported Google Fonts were slowing down performance.
-- **Fix**: Added `<link rel="preconnect"…>` and preloaded critical fonts using `<link rel="preload">` to the head.
+- **Fix**: Added `<link rel="preconnect"…>` and preloaded fonts using `<link rel="preload">` to the head.
 
 #### Issue #5: Unused CSS Cause Slow Performance
 - **Problem**: Styles in the CSS file were not being utilised, slowing down load time.
@@ -375,24 +373,14 @@ Fix: Remove unnecessary tags.
 ![CSS Validator Results](docs/testing/css-validator-test.png) 
 
 ### Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes with an exception of unresponsive google map in footer and visual clarity in dropdown menu on navbar items. 
+#### Issue #1: Caousel Captions Not Present On Small Devices
+#### Issue #2: Google Map Not Responsive
+#### Issue #3: Navbar Not Closing After Clicking Skills Section
 
 ## Deployment
 
-### Version Control
-
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
-
-The following git commands were used throughout development to push code to the remote repo:
-
-```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
-
-```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
-
-```git push``` - This command was used to push all committed code to the remote repository on github.
-
 ### Deployment to Github Pages
-The portfolio website is deployed using **GitHub Pages** 
+The portfolio website deployed using **GitHub Pages** 
 
 ### Steps to Deploy:
 1. Sync files to a GitHub repository from VS Code.
@@ -417,8 +405,10 @@ The live link can be found here - https://chia-codes.github.io/portfolio
 * [Slack](https://slack.com/intl/en-gb/)
     * Slack was used to discuss code, fix hosting and connecting issues and gain feedback on written code.
 * [Google](https://www.google.com)
-    * Used for the site to conatain useful links and fonts. 
-      
+    * Google fonts used for styling throughout the website.
+    * Google maps used to embbed a location and interactive feature in the footer.
+    * Devtools used to read, discover and learn how different codes used, for this website implementing ['preload'](https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules)
+
 
 ### Media
 
