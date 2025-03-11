@@ -95,26 +95,31 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 Home page
 <br><br>
 
-![Home](docs/readme_images/portfolio-wireframes.bmpr) 
-
+![Home](docs/wireframes/home-wireframe-dsk.png) 
+<br>
+![Home](docs/wireframes/home-wireframe-tblt.png) 
+<br>
+![Home](docs/wireframes/home-wireframe-mb.png) 
+<br><br>
 
 <br><br>
-Send message form successful submission page.
+Send message form submission page.
 <br><br>
-MESSAGE WIREFRAME HERE DESKTOP -----------------
 
-MESSAGE WIREFRAME HERE MOBILE -----------------
-
-MESSAGE WIREFRAME HERE TABLET -----------------
+![Send Message](docs/wireframes/message-wireframe-dsk.png) 
+<br>
+![Home](docs/wireframes/message-wireframe-tblt.png) 
+<br>
+![Home](docs/wireframes/message-wireframe-mobile.png) 
 
 
 Portfolio page
 <br><br>
-MESSAGE WIREFRAME HERE DESKTOP -----------------
-
-MESSAGE WIREFRAME HERE MOBILE -----------------
-
-MESSAGE WIREFRAME HERE TABLET -----------------
+![Portfolio](docs/wireframes/portfolio-wireframe-dsk.png) 
+<br>
+![Portfolio](docs/wireframes/portfolio-wireframe-tblt.png) 
+<br>
+![Portfolio](docs/wireframes/portfolio-wireframe-mb.png) 
 
 
 ## Technologies
