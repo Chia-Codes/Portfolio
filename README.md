@@ -2,7 +2,7 @@
 
 My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities.View the live site [here](https://chia-codes.github.io/Portfolio)
 
-MOCK UP IMAGES HERE! ------------------------- 
+![Portfolio Mockup](docs/readme_images/portfolio-mockup.png)
 
 ## User Stories
 These are five user stories followed used as a target audiunce to build my portfolio.
