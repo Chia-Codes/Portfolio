@@ -1,61 +1,78 @@
-d# Portfolio
+# Portfolio
 
 My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities.View the live site [here](https://chia-codes.github.io/Portfolio)
 
 MOCK UP IMAGES HERE! ------------------------- 
 
+## User Stories
+These are five user stories followed used as a target audiunce to build my portfolio.
+
+#### Story #1: 
+As a First-Time Visitor, I need easy navigation and a user-friendly design. This includes a responsive layout for my device, so I can find information quickly and efficiently.
+#### Story #2: 
+As an employer, I want to see high-quality images, detailed descriptions in the about me section, with key skills and projects so i can decided if this is the right person to hire.
+#### Story #3: 
+As an hiring manager, I want to see a real or sample projects, so that I can evaluate the candidate technical abilities.
+#### Story #4: 
+As a potential client, I want to find contact information easily, so that I can reach out for potential work opportunities.
+#### Story #5: 
+As a client, I want to easily send a messagwe, to share my contact details and infomation reguarding my inquiry.
+
+## Goals
+- **Recruiters**: Provide a showcase of my skills and contact information on a site that is easy to navigate.
+- **Me**: Increase chanes of getting hired.
+
 ## Features 
 
 ### Site wide
-* Navigation Menu
-    * Responsive on all devices, the navigation menu will direct you to different pages throughout the site. 
-    * This allows users to easily navigate between different pages and sections within the site.  
+**Navigation**
+* Responsive on all devices, the navigation menu will direct you to different pages throughout the site. 
+* This allows users to easily navigate between different pages and sections within the site.  
 ![Nav Menu](docs/readme_images/navbar.png)
 
-*Header
+**Header**
 *  The header is the beginning of my portfolio journey as a user, featuring my name, and a short introduction.
 *  The header contains a background image, ensuring engagement for the first impression of the site.
-* A call-to-action button is included, allowing user to easily navigate to the ‘send me a message’ page for direct contact.
+*  A call-to-action button is included, allowing user to easily navigate to the ‘send me a message’ page for direct contact.
 ![Header](docs/readme_images/header.png)
 
-*Footer
+**Footer**
 * The footer includes icon links to my social media platforms, allowing users to connect across relevant platforms.
 * The footer contains contact information, so users can reach out directly.
 * The footer includes google maps, display my base location, for users to be informed of my whereabouts.
 ![Footer](docs/readme_images/footer.png)
 
-* Favicon
-    * A customed favicon is used in the browser tap for site branding.
-    * This will allow the user to easily identify the site in their browser.
+**Favicon**
+* A customed favicon is used in the browser tap for site branding.
+* This will allow the user to easily identify the site in their browser.
 ![Favicon](docs/readme_images/favicon.png)
 
 ### Landing Page
-* Home page
-    * Utilising recommended guidelines, the site follows  WCAG 2.1, reassuring accessibility throughout the site.
-    * This will contain and about me section where the user can lean and little more about me and my work history. 
-    * This will contain a skills section, allowing the user to browse through my relevant skill set and how it relates to me. 
+**Home page**
+* Utilising recommended guidelines, the site follows  WCAG 2.1, reassuring accessibility throughout the site.
+* To contain 'about me' section for the user to learn about me and my work history.
+* To showcase my relvant skills set, this will contain a skills card sections.
 ![About](docs/readme_images/about-me.png) 
 
 ![Skills](docs/readme_images/skills.png) 
 
-
-* Contact form
-    * This allows users to easily reach out and send me a message. The form will consist of the following fields and attributes: 
-        * First Name (required, type=text)
-        * Last Name (required, type=text)
-        * Email (required, type=email)
-        * Radio button options (required)
-        * Message (required, type=textarea)
-    * Successfully submitting the contact form, users will be redirected to success.html displaying a ‘thank you’ message.
-    * A radio button is included for clarity of inquiries, stating weather the user is a client or employer. 
+**Contact form**
+* Allows users to easily reach out and send me a message. The form will consist of the following fields and attributes: 
+* First Name (required, type=text)
+* Last Name (required, type=text)
+* Email (required, type=email)
+* Radio button options (required)
+* Message (required, type=textarea)
+* Successfully submitting the contact form, users will be redirected to success.html displaying a ‘thank you’ message.
+* A radio button is included for clarity of inquiries, stating weather the user is a client or employer. 
 ![Message Form](docs/readme_images/send-message.png) 
 ![Message Form Comfirmation](docs/readme_images/send-message.png)
 
 ### Portfolio Page
-* Portfolio
-    * Portfolio page showcases projects worked on with relevant links to site repository and deployment. Clicking on links allows users to see projects in more detail.
-    * Each project is displayed on a carousel with captions to inform the user about the imagery.
-    * This allows users to browse through past projects and see my obtain knowledge and skills in action.  
+**Portfolio**
+* Portfolio page showcases projects worked on with relevant links to site repository and deployment. Clicking on links allows users to see projects in more detail.
+* Each project is displayed on a carousel with captions to inform the user about the imagery.
+* This allows users to browse through past projects and see my obtain knowledge and skills in action.  
 ![Portfolio](docs/readme_images/portfolio.png) 
 
 ### Existing Features
@@ -390,6 +407,14 @@ The portfolio website deployed using **GitHub Pages**
 5. Click **Save**.
 The live link can be found here - https://chia-codes.github.io/portfolio
 
+## UX & UI Considerations
+The design follows the five planes of UX design:
+1. **Strategy** – Set user needs and goals to ensure the site serves the recruiter and site manager.
+2. **Scope** – Contain features such as the about, skills, and portfolio sections.
+3. **Structure** – Design a logical easy-to-use structure that invitews easy navigation and ease of access.
+4. **Skeleton** – Create wireframes to brainstorm and map out the layout the site.
+5. **Surface** – Develop an appealing unique site with an elegant color scheme and subtle design elements.
+
 ## Credits 
 
 * [Bootstrap](https://getbootstrap.com/)
@@ -405,9 +430,10 @@ The live link can be found here - https://chia-codes.github.io/portfolio
 * [Slack](https://slack.com/intl/en-gb/)
     * Slack was used to discuss code, fix hosting and connecting issues and gain feedback on written code.
 * [Google](https://www.google.com)
-    * Google fonts used for styling throughout the website.
+    * Google fonts used for styling throughout the website https://fonts.google.com/
     * Google maps used to embbed a location and interactive feature in the footer.
-    * Devtools used to read, discover and learn how different codes used, for this website implementing ['preload'](https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules)
+    * Chrome Developers used to read, discover and learn how different codes used, for this website implementing ['preload'](https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules)
+    * Chrome DevTools, lighthouse used to test and examin code performance and accessibility.
 
 
 ### Media
@@ -416,3 +442,11 @@ The live link can be found here - https://chia-codes.github.io/portfolio
     * Was used to discover royalty free audio embedded in the heade, audio credit goes to Sergei Chetvertnykh from pixabay. 
 * [OpenAI](https://www.openai.com)
     * Used to generate personalised and custom imagery throughout the website. 
+
+
+
+**Thank You!**
+This is the first project I have created using my knowledge and skills gain from particpating in Code Institues Full Stack Diploma Course. 
+I am aware there are issues and bugs within the site, and I aim to learn to fix them before my course date ends (Nov 2025) 
+My 'commits' and changes could have more clarity with aim to make a selected changes rather than multiple. 
+Thank you for taking the time to look through my first solo project!
