@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/75a9d147-696c-4f77-892b-6255174e5cd0)# Portfolio
+# Portfolio
 
 My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities. 
 View the live site [here](https://chia-codes.github.io/Portfolio)
