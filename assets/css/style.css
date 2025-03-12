@@ -120,7 +120,7 @@ a:hover {
 header {
     /* Header Img */
     background: none;
-    background: url("../images/header-img.webp") no-repeat center/cover;
+    background: url("../images/header-img-lg.webp") no-repeat center/cover;
     width: 100vw;
     background-size: cover;
     background-position: center;
@@ -256,11 +256,15 @@ header {
 
 /* Media Queries */
 /* Small devices (mobile phones, 320px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 320px) {
     img {
         width: 100vw;
         height: 100vh;
-    }    
+    } 
+    
+    header {
+        background: url("../images/header-img-sm.webp") no-repeat center/cover;
+    }
 
 }
 
@@ -274,6 +278,10 @@ header {
 
     .btn-2 {
         width: 90%;
+    }
+
+    header {
+        background: url("../images/header-img-md.webp") no-repeat center/cover;
     }
 }
 
