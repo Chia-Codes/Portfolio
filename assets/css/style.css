@@ -93,13 +93,13 @@ color: white;
 /* a hyperinks */
 
 a {
-    color: var(--secondary-color);
+    color: var(--highlight-color-dark);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: var(--highlight-color-dark);
+    color: blue;
 }
 
 /* Navbar */
@@ -125,11 +125,11 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
     /* Elements within header */
     font-weight: 700;
     color: black;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .audio-caption {
