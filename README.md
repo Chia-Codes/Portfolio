@@ -218,24 +218,27 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Problem**: Carousel captions are not visible on small devices.
 - **Fix**: Add links below carousel to avoid user inefficiency.
 
-### Lighthouse Testing Before Fixes
+## Lighthouse Testing Before Fixes
 
-## Home
+#### Home
 ![Home](docs/testing/home-test-fix.png) 
 
-## Send Message
+#### Send Message
 ![Send Message](docs/testing/lighthouse-send-message-test.png)
 
-## Portfolio
+#### Portfolio
 ![Portfolio](docs/testing/lighthouse-portfolio-test.png) 
 
-### Lighthouse Testing After Fixes
+# Lighthouse Testing After Fixes
 
-## Home Page
+#### Home Page
 ![Home](docs/testing/home-test-fix.png) 
 
-## Send Message Page
+#### Send Message Page
 ![Send Message](docs/testing/send-message-test-fix.png)
+
+#### Potrfolio Page
+![Poprtfolio Page](docs/testing/portfolio-test-fix.png)
 
 ### Functional Testing
 
