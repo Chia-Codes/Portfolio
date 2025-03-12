@@ -98,22 +98,22 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 <br>
 
 ## Home page
-<br>
+
 ![Home](docs/wireframes/home-wireframe-mb.png) 
-<br>
+
 ![Home](docs/wireframes/home-wireframe-tblt.png) 
-<br>
+
 ![Home](docs/wireframes/home-wireframe-dsk.png) 
 
 <br><br>
 
 <br><br>
 ## Send message form submission page
-<br>
+
 ![Home](docs/wireframes/message-wireframe-mobile.png) 
-<br>
+
 ![Home](docs/wireframes/message-wireframe-tblt.png) 
-<br>
+
 ![Send Message](docs/wireframes/message-wireframe-dsk.png) 
 <br>
 
