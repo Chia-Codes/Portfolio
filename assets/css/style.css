@@ -15,7 +15,7 @@
     --primary-color: #fed4cd; /* Pastel pink */
     --secondary-color: #000000; /* Black */
     --highlight-color: #98b9b8; /* Pastel Blue */
-    --highlight-color-dark: #3b626c ;
+    --highlight-color-dark: #3b626c ; /* Navy */ 
 }
 
 /* Global Styles */
@@ -113,6 +113,10 @@ a:hover {
 
 .nav-item {
     text-align: center;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: var(--primary-color); 
 }
 
 /* Header */
