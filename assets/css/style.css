@@ -113,10 +113,7 @@ a:hover {
 
 .nav-item {
     text-align: center;
-}
-
-.navbar-nav > li > .dropdown-menu { 
-    background-color: var(--primary-color); 
+    background-color: var(--primary-color);
 }
 
 /* Header */
