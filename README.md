@@ -1,7 +1,7 @@
 # Portfolio
 
-My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities.View the live site [here](https://chia-codes.github.io/Portfolio)
-
+My portfolio is a website to showcase my web development skills, experience and projects. The site is designed to inform potential recruiters and clients about myself and for them to be able to explore my work. It is a digital resume allowing users to be interactive and connect with me about work opportunities. 
+View the live site [here](https://chia-codes.github.io/Portfolio)
 ![Portfolio Mockup](docs/readme_images/portfolio-mockup.png)
 
 ## User Stories
@@ -52,8 +52,11 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * Utilising recommended guidelines, the site follows  WCAG 2.1, reassuring accessibility throughout the site.
 * To contain 'about me' section for the user to learn about me and my work history.
 * To showcase my relvant skills set, this will contain a skills card sections.
+
+## About 
 ![About](docs/readme_images/about-me.png) 
 
+## Skills
 ![Skills](docs/readme_images/skills.png) 
 
 **Contact form**
@@ -64,7 +67,8 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * Radio button options (required)
 * Message (required, type=textarea)
 * Successfully submitting the contact form, users will be redirected to success.html displaying a ‘thank you’ message.
-* A radio button is included for clarity of inquiries, stating weather the user is a client or employer. 
+* A radio button is included for clarity of inquiries, stating weather the user is a client or employer.
+## Message Form
 ![Message Form](docs/readme_images/send-message.png) 
 ![Message Form Comfirmation](docs/readme_images/send-message.png)
 
@@ -92,34 +96,36 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 
 ### Wireframes
 <br>
-Home page
-<br><br>
 
-![Home](docs/wireframes/home-wireframe-dsk.png) 
+## Home page
+<br>
+![Home](docs/wireframes/home-wireframe-mb.png) 
 <br>
 ![Home](docs/wireframes/home-wireframe-tblt.png) 
 <br>
-![Home](docs/wireframes/home-wireframe-mb.png) 
+![Home](docs/wireframes/home-wireframe-dsk.png) 
+
 <br><br>
 
 <br><br>
-Send message form submission page.
-<br><br>
-
-![Send Message](docs/wireframes/message-wireframe-dsk.png) 
+## Send message form submission page
+<br>
+![Home](docs/wireframes/message-wireframe-mobile.png) 
 <br>
 ![Home](docs/wireframes/message-wireframe-tblt.png) 
 <br>
-![Home](docs/wireframes/message-wireframe-mobile.png) 
+![Send Message](docs/wireframes/message-wireframe-dsk.png) 
+<br>
 
 
-Portfolio page
+
+## Portfolio page
 <br><br>
-![Portfolio](docs/wireframes/portfolio-wireframe-dsk.png) 
+![Portfolio](docs/wireframes/portfolio-wireframe-mb.png)
 <br>
 ![Portfolio](docs/wireframes/portfolio-wireframe-tblt.png) 
 <br>
-![Portfolio](docs/wireframes/portfolio-wireframe-mb.png) 
+![Portfolio](docs/wireframes/portfolio-wireframe-dsk.png) 
 
 
 ## Technologies
@@ -210,14 +216,26 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #5: Caousel Captions Not Present On Small Devices
 - **Problem**: Carousel captions are not visible on small devices.
-- **Fix**: This issue is unresolved as it needs to be looked into with bootstrap framework and I am unsure how to do this.
-  
-![Home](docs/testing/lighthouse-test-home-mobile.png) 
+- **Fix**: Add links below carousel to avoid user inefficiency.
 
+### Lighthouse Testing Before Fixes
+
+## Home
+![Home](docs/testing/home-test-fix.png) 
+
+## Send Message
 ![Send Message](docs/testing/lighthouse-send-message-test.png)
 
+## Portfolio
 ![Portfolio](docs/testing/lighthouse-portfolio-test.png) 
 
+### Lighthouse Testing After Fixes
+
+## Home Page
+![Home](docs/testing/home-test-fix.png) 
+
+## Send Message Page
+![Send Message](docs/testing/send-message-test-fix.png)
 
 ### Functional Testing
 
@@ -431,13 +449,17 @@ The design follows the five planes of UX design:
 * [Code Institute](https://learn.codeinstitute.net)
     * Code institute resorces including my mentor (Gareth Mcgirr) help with structural elements and how to code for prefered results.
 * [W3 Schools](https://www.w3schools.com)
-    * Used to learn, reference and discover code elements to help build site.
+    * Used to learn, reference and discover code elements to help build site. In this website 'w3-container' & 'loading'
 * [Slack](https://slack.com/intl/en-gb/)
     * Slack was used to discuss code, fix hosting and connecting issues and gain feedback on written code.
+* [Stackoverflow](https://stackoverflow.com//intl/en-gb/)
+  This includes:
+  - 'd-block' associated with the 'courasel caption' an attempt to debug caption's dissapearing on small devices. A another possible attempt for this is to implement display options.           https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-device
+  - Learn how others remove border from buttons https://stackoverflow.com/questions/11497094/remove-border-from-buttons
 * [Google](https://www.google.com)
     * Google fonts used for styling throughout the website https://fonts.google.com/
     * Google maps used to embbed a location and interactive feature in the footer.
-    * Chrome Developers used to read, discover and learn how different codes used, for this website implementing ['preload'](https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules)
+    * Chrome Developers used to read, discover and learn how different codes used, for this website implementing 'preload' & 'preconnect' https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules
     * Chrome DevTools, lighthouse used to test and examin code performance and accessibility.
 
 
