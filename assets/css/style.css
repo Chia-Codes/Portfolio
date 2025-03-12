@@ -187,9 +187,10 @@ header {
 /* Portfolio */
 
 .carousel-item {
-    width: 100%;
-    height: 70%;
+    height: 100%;
+    object-fit: cover; /* Attempt to try and make carousel image same size */
 }
+
 .carousel-caption {
     background: rgb(152, 185, 184, 0.9);
     border-radius: 25%;
