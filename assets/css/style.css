@@ -202,11 +202,14 @@ header {
 }
 
 .carousel-caption {
-    border-radius: 50%;
-    padding: 20px;
+    border-radius: 45%;
+    padding: 10px;
+    margin: 20px;
     background: rgb(152, 185, 184, 0.9);
-    width: 100vw;
-    height: 100vh;
+}
+
+.carousel-caption {
+
 }
 
 .carousel-caption > h5 {
@@ -339,10 +342,6 @@ header {
 
     header {
         background: url("../images/header-img-md.webp") no-repeat center/cover;
-    }
-
-    .carousel-caption {
-        visibility: hidden;
     }
 }
 
