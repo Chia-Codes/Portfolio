@@ -127,12 +127,15 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
     /* Create breathing spcace */
-    margin: 20px;
+    margin: 30px;
+    padding: 20px;
 
     /* Elements within header */
     font-weight: 700;
     color: black;
 }
+
+
 
 .audio-caption {
     position: relative;
@@ -173,7 +176,6 @@ header {
 }
 
 .card {
-    text-align: center;
     padding: 5%;
     /* Add shadow effect to cards */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -222,7 +224,7 @@ header {
 /* Form */
 
 #form {
-    margin: 20px; /* Give margin breathing space */
+    margin: 20px; /* Give heading breathing space */
 }
 
 #send-message {
@@ -307,6 +309,15 @@ header {
         background: url("../images/header-img-sm.webp") no-repeat center/cover;
     }
 
+    /* To stop buttons from expanding across screen */
+    /* Buttons */
+    .btn-1 {
+        width: 80%;
+    }
+
+    .btn-2 {
+        width: 90%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -314,7 +325,7 @@ header {
     /* To stop buttons from expanding across screen */
     /* Buttons */
     .btn-1 {
-        width: 45%;
+        width: 30%;
     }
 
     .btn-2 {
@@ -336,6 +347,19 @@ header {
     /* To stop buttons from expanding across screen */
     .btn-1 {
         width: 30%;
+    }
+
+    .btn-2 {
+        width: 50%;
+    }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* To stop buttons from expanding across screen */
+    .btn-1 {
+        width: 300px;
+
     }
 
     .btn-2 {
