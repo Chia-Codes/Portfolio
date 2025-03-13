@@ -71,7 +71,7 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
+              >Home</a
               >
             </li>
             <li class="nav-item">
@@ -479,6 +479,22 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          let navLinks = document.querySelectorAll(".nav-link");
+          let navBar = document.querySelector(".navbar-collapse");
+      
+          navLinks.forEach(function (link) {
+              link.addEventListener("click", function () {
+                  if (navBar.classList.contains("show")) {
+                      new bootstrap.Collapse(navBar).hide();
+                  }
+              });
+          });
+      });
+      </script>
 
     <!--Font Awesome Icons-->
     <script
