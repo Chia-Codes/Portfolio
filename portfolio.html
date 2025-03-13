@@ -83,7 +83,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link" href="index.html"
                 >Home</a
               >
             </li>
@@ -94,7 +94,7 @@
               <a class="nav-link" href="index.html#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#contact">Contact</a>
@@ -108,17 +108,20 @@
     <main>
       <section class="container portfolio">
         <div class="text-center">
-          <h1><strong>Portfolio</strong></h1>
-          <h2 class="mt-5">
+          <h1 class="display-3">Portfolio</h1>
+          <hr>
+          <!--mb-5 to give spacing between heading and sub head-->
+          <h2 class="mb-5">
             Below are some of the projects I have worked on.
             <br>
             Feel free to check them out!
+            <br>
             You can find links to source code and deployed site below the images.
           </h2>
         </div>
       </section>
       <section class="container">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -165,6 +168,7 @@
                 src="assets/images/screenshot-love-running-project-html-code.webp"
                 class="img-fluid"
                 alt="screenshot-love-running-project-html-code"
+                loading="lazy"
               >
               <div class="carousel-caption d-none d-md-block">
                 <h5>Love-Running</h5>
@@ -180,6 +184,7 @@
                 src="assets/images/screenshot-love-running-html-code.webp"
                 class="img-fluid"
                 alt="Screen shot of love running html code"
+                loading="lazy"
               >
               <div class="carousel-caption d-none d-md-block">
                 <a
@@ -201,9 +206,10 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="assets/images/screenshot-boardwalk-games-html-code.webp"
+                src="assets/images/screenshot-boardwalk-games-project.webp"
                 class="img-fluid"
                 alt="Screen shot image of boardwalk-games repository on github"
+                loading="lazy"
               >
               <div class="carousel-caption d-none d-md-block">
                 <h5>Boardwalk-games</h5>
@@ -216,7 +222,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="assets/images/screenshot-boardwalk-games-project.webp"
+                src="assets/images/screenshot-boardwalk-games-html-code.webp"
                 class="img-fluid"
                 alt="Screen shot of boardwalk-games deployment"
               >
@@ -243,6 +249,7 @@
                 src="assets/images/screenshot-mei-wong-portfolio.webp"
                 class="img-fluid"
                 alt="Screen shot of Mei Wong portfolio project"
+                loading="lazy"
               >
               <div class="carousel-caption d-none d-md-block">
                 <h5>Mei Wong's Portfolio</h5>
@@ -259,6 +266,7 @@
                 src="assets/images/screenshot-of-mei-wong-portfolio-html-code.webp"
                 class="img-fluid"
                 alt="Screen shot of Mei Wong portfolio project html code"
+                loading="lazy"
               >
               <div class="carousel-caption d-none d-md-block">
                 <a
@@ -299,10 +307,10 @@
           </button>
         </div>
       </section>
-      <!-- col-10 for breathing space-->
-      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
+
+      <section id="sourcecode-links" class="w3-container col-10 col-sm-4 mx-auto">
         <div class="text-center">
-          <h6>Love-Running</h6>
+          <h5>Love-Running</h5>
           <a
             href="https://chia-codes.github.io/Love-Running/"
             aria-label="Link to Github deployment of 'Love Running' project (opens in a new tab)"
@@ -320,9 +328,9 @@
           >
         </div>
       </section>
-      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
+      <section id="sourcecode-links" class="w3-container col-10 col-sm-4 mx-auto">
         <div class="text-center">
-          <h6>Boardwalk-games</h6>
+          <h5>Boardwalk-games</h5>
           <a
             href="https://chia-codes.github.io/Boardwalk-games/"
             aria-label="Link to Github deployment of 'Love Running' project (opens in a new tab)"
@@ -340,9 +348,9 @@
           >
         </div>
       </section>
-      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
+      <section id="sourcecode-links" class="w3-container col-10 col-sm-4 mx-auto">
         <div class="text-center">
-          <h6>Mei Wong Portfolio</h6>
+          <h5>Mei Wong Portfolio</h5>
           <a
             href="https://chia-codes.github.io/Mei-wong-portfolio/"
             aria-label="Link to Github deployment of 'Love Running' project (opens in a new tab)"

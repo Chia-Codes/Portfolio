@@ -40,8 +40,6 @@ p {
 }
 
 h1 {
-    text-decoration: underline;
-    text-underline-offset: 1.5rem;
     text-decoration-thickness: 0.2rem;
 }
 
@@ -189,20 +187,37 @@ header {
 
 /* Portfolio */
 
-.carousel-item {
-    height: 100%;
-    object-fit: cover; /* Attempt to try and make carousel image same size */
+.carousel {
+    padding: 20px;
+    background-color: var(--highlight-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption {
+    border-radius: 50%;
+    padding: 20px;
     background: rgb(152, 185, 184, 0.9);
-    border-radius: 25%;
+    width: 100vw;
+    height: 100vh;
 }
 
-.carousel-inner > .item > img { 
-    width:640px; 
-    height:360px; 
+.carousel-caption > h5 {
+    text-transform: uppercase;
 }
+
+/* Sourcode Links */
+#sourcecode-links {
+    border-radius: 50%;
+    padding: 20px;
+    margin: 30px;
+}
+
 
 /* Form */
 
@@ -309,7 +324,12 @@ header {
     header {
         background: url("../images/header-img-md.webp") no-repeat center/cover;
     }
+
+    .carousel-caption {
+        visibility: hidden;
+    }
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 922px) {
