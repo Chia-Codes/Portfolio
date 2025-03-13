@@ -318,6 +318,11 @@ header {
     .btn-2 {
         width: 90%;
     }
+
+    /* Form */
+    #form {
+        padding: 20px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
