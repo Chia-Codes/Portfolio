@@ -192,7 +192,7 @@ Website was also opened on the following devices and no responsive issues were s
 - iPhone 13
 - Dell Desktop-AH44THS
 
-### Accessibility Issues & Fixes
+### Accessibility & Responsiveness Issues & Fixes
 Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #1: Navbar Clear Did Not Close on Click
@@ -204,20 +204,28 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Fix**: Compressed all image files from ‘png’ to ‘webp’ using squoosh. 
 
 #### Issue #3: Header Image Was Not Present on Mobile
-- **Problem**: The header background image was taking too long to load, leading to  poor user experience.
-- **Fix**: `preload` used to load the background image early saving load time.
+- **Problem**: The header background image was taking too long to load, leading to poor user experience.
+- **Fix**: `preload` used to load the background image early saving load time. As sugested by chrome developers this is a useful tag for important elements to increase load time. ![Chrome For Developers](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect)
 
 #### Issue #4: Fonts Loading Slowly
 - **Problem**: Imported Google Fonts were slowing down performance.
-- **Fix**: Added `<link rel="preconnect"…>` and preloaded fonts using `<link rel="preload">` to the head.
+- **Fix**: Added `<link rel="preconnect"…>` and preloaded fonts using `<link rel="preload">` to the head. This will insure the preffered font styles are preloaded to speed up page load and enchancing user experience.
 
 #### Issue #5: Unused CSS Cause Slow Performance
 - **Problem**: Styles in the CSS file were not being utilised, slowing down load time.
-- **Fix**: Used Chrome DevTools – Coverage to manually remove unused CSS
+- **Fix**: Used Chrome DevTools – Coverage to manually find & remove unused CSS
 
 #### Issue #5: Caousel Captions Not Present On Small Devices
 - **Problem**: Carousel captions are not visible on small devices.
 - **Fix**: Add links below carousel to avoid user inefficiency.
+
+#### Issue #6: Breathing Space
+- **Problem**: No breathing space for map & header.
+- **Fix**: Add 'padding' & 'margin' in CSS styesheet throughout document for consistency and pleasant user experience.
+
+#### Issue #7: Navbar Bold On Active Page
+- **Problem**: Navbar items within index html page are not bold when user is on that section.
+- **Fix**: Add 'padding' & 'margin' in CSS styesheet throughout document for consistency and pleasant user experience. 
 
 ## Lighthouse Testing Before Fixes
 
@@ -435,6 +443,7 @@ The portfolio website deployed using **GitHub Pages**
 The live link can be found here - https://chia-codes.github.io/portfolio
 
 ## UX & UI Considerations
+This website is buit with a 'mobile first' thought pattern. As most online users are highly likey to view the sight through a mobile or tablet, a mobile first approach is essential to the user experience.
 The design follows the five planes of UX design:
 1. **Strategy** – Set user needs and goals to ensure the site serves the recruiter and site manager.
 2. **Scope** – Contain features such as the about, skills, and portfolio sections.
