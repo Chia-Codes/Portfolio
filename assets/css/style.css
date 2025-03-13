@@ -240,6 +240,12 @@ header {
 
 /* Contact Information */
 
+/* Map */
+
+#map {
+    width: 100%;
+    height: 100%;
+}
 /* Social Network links */
 
 #social-networks {
