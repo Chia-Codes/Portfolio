@@ -59,7 +59,7 @@
 
   <!--'flex's work in conjuction with mt-auton on footer to push footer to the bottom of the page-->
   <body class="d-flex flex-column min-vh-100">
-    
+
     <!--Navigation-->
     <nav id="navbar" class="navbar sticky-top navbar-expand-sm">
       <div class="container d-flex">
@@ -299,7 +299,8 @@
           </button>
         </div>
       </section>
-      <section class="w3-container mt-4 mx-auto">
+      <!-- col-10 for breathing space-->
+      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
         <div class="text-center">
           <h6>Love-Running</h6>
           <a
@@ -319,7 +320,7 @@
           >
         </div>
       </section>
-      <section class="w3-container mt-4 mx-auto">
+      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
         <div class="text-center">
           <h6>Boardwalk-games</h6>
           <a
@@ -339,7 +340,7 @@
           >
         </div>
       </section>
-      <section class="w3-container mt-4 mx-auto">
+      <section class="w3-container col-6 col-md-4 mt-4 mx-auto">
         <div class="text-center">
           <h6>Mei Wong Portfolio</h6>
           <a
@@ -401,8 +402,9 @@
       </div>
 
       <!--Map-->
-      <section id="map" class="w3-container">
+      <section class="container">
         <iframe
+          id="map" 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1740227334590!5m2!1sen!2suk"
           title="Map of London"
           loading="lazy"
@@ -410,7 +412,9 @@
         <span class="sr-only"
           >Map showing London, England and its surroundings.</span
         >
-        <h6 class="text-center">Based in London, UK</h6>
+        <div>
+          <h6 class="text-center">Based in London, UK</h6>
+            </div>
       </section>
 
       <ul id="social-networks">

@@ -128,6 +128,9 @@ header {
     background-repeat: no-repeat;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
+    /* Create breathing spcace */
+    margin: 20px;
+
     /* Elements within header */
     font-weight: 700;
     color: black;
@@ -203,6 +206,10 @@ header {
 
 /* Form */
 
+#form {
+    margin: 20px; /* Give margin breathing space */
+}
+
 #send-message {
     padding: 10px 5% 5% 10%;
     border-radius: 10px;
@@ -245,6 +252,13 @@ header {
 #map {
     width: 100%;
     height: 100%;
+    background-color: var(--highlight-color);
+
+    /* Breathing spcae and box showdow for consistency */
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+
 }
 /* Social Network links */
 
