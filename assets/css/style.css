@@ -208,18 +208,15 @@ header {
     background: rgb(152, 185, 184, 0.9);
 }
 
-.carousel-caption {
-
-}
-
 .carousel-caption > h5 {
     text-transform: uppercase;
 }
 
+
 /* Sourcode Links */
 #sourcecode-links {
     border-radius: 50%;
-    padding: 20px;
+    padding: 50px;
     margin: 30px;
 }
 
