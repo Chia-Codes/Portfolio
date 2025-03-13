@@ -214,8 +214,8 @@ header {
 
 
 /* Sourcode Links */
-#sourcecode-links {
-    border-radius: 50%;
+.sourcecode-links {
+    border-radius: 48%;
     padding: 50px;
     margin: 30px;
 }
