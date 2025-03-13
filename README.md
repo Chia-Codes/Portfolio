@@ -68,6 +68,7 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * Message (required, type=textarea)
 * Successfully submitting the contact form, users will be redirected to success.html displaying a ‘thank you’ message.
 * A radio button is included for clarity of inquiries, stating weather the user is a client or employer.
+  
 ## Message Form
 ![Message Form](docs/readme_images/send-message.png) 
 ![Message Form Comfirmation](docs/readme_images/send-message.png)
@@ -86,11 +87,11 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * External frameworks
 * Imported google fonts and map
 
-
 ### Features Left to Implement
 
 * To enhance the use of the site, contact form could be set to directly send message to email with a pop ‘success’ modal.
-* Google map to be responsive across all devices.
+* Testimonial page could be added:
+  - **User Story**: As a potential employer, I want to read references and reviews from other clients, so I can gauge the experiences of others and feel more confident about hiring.
 
 ## Design
 
@@ -196,7 +197,7 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #1: Navbar Clear Did Not Close on Click
 - **Problem**: The navigation menu remained opening when clicking on skills section and background on items not visable.
-- **Fix**: I have not yet found a way to resolve this issue as the code sits the same for all navbar items.
+- **Fix**: This was fixed implmenting a javascript query before the body closing tag (</body>) fo navbar to be responsive collapsing on mobile devices.
 
 #### Issue #2: Large Images Impacting Loading Time
 - **Problem**: Image files where holding excessive data increasing loading time during performance.
@@ -445,12 +446,16 @@ The design follows the five planes of UX design:
 
 * [Bootstrap](https://getbootstrap.com/)
     * Code was used from this site used to create structural foundtation of navbar and cards custmoised to my relevant preferences and ensure syncrinicity of styling throughout the site.
+    * Also bootstrap was useful for providing Javascript code in order for functional & responsive structure, in this case collapsing navbar on click in mobile view. 
 * [Javascript](https://javascript.com/)  
     * Javascript also deserve ceditation as it was used in conjustion with bootstrap 5.3
 * [Squoosh](https://www.squoosh.com)
     * Was used to compress files, coverting them from png to webp increasing site load time.
 * [Code Institute](https://learn.codeinstitute.net)
     * Code institute resorces including my mentor (Gareth Mcgirr) help with structural elements and how to code for prefered results.
+   - The codes used were learnt in walkthrough projects shown in on the poject potrfolio page then implemented in this project.
+   - Adding bootstrap framwork to html document
+   - Learning to add JS to the document in order for bootstrap functions to be coherent.   
 * [W3 Schools](https://www.w3schools.com)
     * Used to learn, reference and discover code elements to help build site. In this website 'w3-container' & 'loading'
 * [Slack](https://slack.com/intl/en-gb/)
