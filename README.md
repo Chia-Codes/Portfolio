@@ -154,6 +154,8 @@ As a client, I want to easily send a messagwe, to share my contact details and i
     * https://squoosh.com/ was used to reduce the size of the images used throughout the website.
 * Balsamiq
     * Website wireframes were created using balsamiq https://balsamiq.com/wireframes/desktop
+
+      
 ## Testing
 Chrome DevTools was used throughout development and testing the deployed website to check for accessibility issues.
 
@@ -205,7 +207,8 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #3: Header Image Was Not Present on Mobile
 - **Problem**: The header background image was taking too long to load, leading to poor user experience.
-- **Fix**: `preload` used to load the background image early saving load time. As sugested by chrome developers this is a useful tag for important elements to increase load time. ![Chrome For Developers](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect)
+- **Fix**: `preload` used to load the background image early saving load time. As sugested by chrome developers this is a useful tag for important elements to increase load time.
+  https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect
 
 #### Issue #4: Fonts Loading Slowly
 - **Problem**: Imported Google Fonts were slowing down performance.
@@ -215,18 +218,23 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Problem**: Styles in the CSS file were not being utilised, slowing down load time.
 - **Fix**: Used Chrome DevTools – Coverage to manually find & remove unused CSS
 
-#### Issue #5: Caousel Captions Not Present On Small Devices
+#### Issue #6: Caousel Captions Not Present On Small Devices
 - **Problem**: Carousel captions are not visible on small devices.
 - **Fix**: Add links below carousel to avoid user inefficiency.
 
-#### Issue #6: Breathing Space
+#### Issue #7: Breathing Space
 - **Problem**: No breathing space for map & header.
 - **Fix**: Add 'padding' & 'margin' in CSS styesheet throughout document for consistency and pleasant user experience.
 
-#### Issue #7: Navbar Bold On Active Page
+#### Issue #8: Navbar Bold On Active Page
 - **Problem**: Navbar items within index html page are not bold when user is on that section.
 - **Fix**: Add 'padding' & 'margin' in CSS styesheet throughout document for consistency and pleasant user experience. 
 
+#### Issue #9: Audio Not Playing On Mobile
+- **Problem**: Audio in the home page header does not seem to play when viewing on mobile devices instead give me and option to cast full screen.
+- **Fix**: Add 'playsinline' to ensure the audio plays inline instead of forcing full screen, also add '.ogg' file as option to cater for different system functionalities. 
+
+  
 ## Lighthouse Testing Before Fixes
 
 #### Home
@@ -247,7 +255,7 @@ Manual tests were performed to identify problematic issues, they are as follows:
 ![Send Message](docs/testing/send-message-test-fix.png)
 
 #### Potrfolio Page
-![Poprtfolio Page](docs/testing/portfolio-test-fix.png)
+![Portfolio Page](docs/testing/portfolio-text-fix.png)
 
 ### Functional Testing
 
@@ -316,7 +324,16 @@ The form does not submit and a pop-up is displayed to tell the user that the fie
 
 Actual:
 
-Behaved as expected, pop-up message displayed and form did not submit.
+Behaved as expected, expcept 'required' attribute was not on last name input. Which meant the form was submitted when the last name field was empty. This is now fixed with 'required' in all elements of the form section.
+
+Expected after fix:
+
+The form does not submit and a pop-up is displayed to tell the user that the field is required.
+
+Actual after fix:
+
+Behaved as originaly expected and form did not submit on any empty field.
+
 
 _Scenario Three – Radio Buttons Left Empty_
 
@@ -425,9 +442,11 @@ Fix: Remove unnecessary tags.
 ![CSS Validator Results](docs/testing/css-validator-test.png) 
 
 ### Unfixed Bugs
-#### Issue #1: Caousel Captions Not Present On Small Devices
-#### Issue #2: Google Map Not Responsive
-#### Issue #3: Navbar Not Closing After Clicking Skills Section
+
+#### Issue #1: Get form to send email to target email address and direct to message comfirmation page.
+
+#### Issue #2: Portfolio images are different sizes causing the carousel to resize on each slide.
+
 
 ## Deployment
 
