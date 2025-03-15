@@ -444,8 +444,16 @@ Fix: Remove unnecessary tags.
 ### Unfixed Bugs
 
 #### Issue #1: Get form to send email to target email address and direct to message comfirmation page.
-
+- **Fix**: Add '<form action="https://formsubmit.co/sanchmsw@gmail.com" method="POST">' to the form and '<...name="_next" value="https://chia-codes.github.io/Portfolio/success.html">' to the button. This will send the message to target email address and redirect the user to a comfimation of message page. Reading Stack overflow healped me to fix this code, link ref I use can be found ![here](https://stackoverflow.com/questions/40831948/making-the-next-option-work-in-formspree)
+  
 #### Issue #2: Portfolio images are different sizes causing the carousel to resize on each slide.
+- **Unfixed**: Currently working on a way to fix this but have not found a solution as of yet.
+  
+#### Issue #3: Audio works on some mobile devices not all.
+- **Unfixed**: This could be due to a Javascript issue I am unsure. The audio for the website has been tested on a few mobiles:
+  - Samsung S23, works with option of volume button
+  - Iphone XR, works with option of volume button
+  - Iphone 12 does not work and gives option to cast screen
 
 
 ## Deployment
