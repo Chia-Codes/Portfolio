@@ -92,6 +92,7 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * To enhance the use of the site, contact form could be set to directly send message to email with a pop ‘success’ modal.
 * Testimonial page could be added:
   - **User Story**: As a potential employer, I want to read references and reviews from other clients, so I can gauge the experiences of others and feel more confident about hiring.
+* To implement swipe feature for touch screen devices on potfolio image carousel.
 
 ## Design
 
