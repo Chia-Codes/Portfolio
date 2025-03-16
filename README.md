@@ -93,6 +93,7 @@ As a client, I want to easily send a messagwe, to share my contact details and i
 * Testimonial page could be added:
   - **User Story**: As a potential employer, I want to read references and reviews from other clients, so I can gauge the experiences of others and feel more confident about hiring.
 * To implement swipe feature for touch screen devices on potfolio image carousel.
+  - **Fix**: This has now been implemented using bootstrap touch screen action 'data-bs-touch="true"'  on portfolio image carousel. This allows users on smaller devices to swipe through images when arrows buttons may be too small and incorporates natural use of the device for the website.
 
 ## Design
 
